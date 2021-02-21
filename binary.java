@@ -8,6 +8,7 @@ public class binary{
         while(n!=0){
           a[i]=n%2;
           n=n/2;
+	 n=n*n;
           i++;      
         }
 for(int j=i-1;j>=0;j--){
